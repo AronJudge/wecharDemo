@@ -1,13 +1,46 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/imag/imag",
+    "pages/mine/mine",
+    "pages/search/search",
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "奥美",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath" : "pages/index/index",
+      "text" : "首页",
+      "backgroundTextStyle": "red",
+      "iconPath": "icons/未选中棒球首页.png",
+      "selectedIconPath": "icons/选中棒球首页.png"
+    },
+    {
+      "pagePath" : "pages/imag/imag",
+      "text" : "球员信息",
+      "iconPath": "icons/未选中球员信息棒球衫.png",
+      "selectedIconPath": "icons/选中球员信息棒球衫.png"
+    },
+    {
+      "pagePath" : "pages/search/search",
+      "text" : "活动信息",
+      "iconPath": "icons/未选中活动信息.png",
+      "selectedIconPath": "icons/选中活动信息.png"
+    },
+    {
+      "pagePath" : "pages/mine/mine",
+      "text" : "个人中心",
+      "iconPath": "icons/个人信息未选中.png",
+      "selectedIconPath": "icons/个人信息选中 .png"
+    }
+  ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
