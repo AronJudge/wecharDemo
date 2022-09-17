@@ -8,7 +8,7 @@
   ],
   "window":{
     "backgroundTextStyle":"dark",
-    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarBackgroundColor": "#ce200a",
     "navigationBarTitleText": "奥美",
     "navigationBarTextStyle":"black",
     "enablePullDownRefresh": true
@@ -40,8 +40,10 @@
       "iconPath": "icons/个人信息未选中.png",
       "selectedIconPath": "icons/个人信息选中 .png"
     }
-  ]
+  ],
+    "selectedColor": "#fb270b"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
 }
